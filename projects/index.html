@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Emma Dai</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/links.css"/>
+	<link rel="stylesheet" type="text/css" href="css/custom.css"/>
+	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+	<link rel="stylesheet" type="text/css" href="css/projects.css"/>
+	<script src="https://maxwellito.github.io/vivus/dist/vivus.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="js/projects.js"></script>
+	<script src="../js/scrollNav.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-static-top">
+		<div class="container">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	         </button>
+			<div class="navbar-header navbar-left cl-effect-header">
+				<a href="/"class="nav-brand"><span data-hover="Home">Emma Dai</span></a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right cl-effect">
+					<li><a href="/"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+					<li><a id="current-page" href="."><span class="glyphicon glyphicon-briefcase"></span> Projects</a></li>
+					<li><a target="_blank" href="../resources/2021spring_resume_draft.pdf"><span class="glyphicon glyphicon-file"></span> Résumé</a></li>
+					<li><a href="/contact"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="foreground-view">
+		<div class="navbar-placeholder"></div>
+		<div class="container">
+			<div class="title">Personal / Team Projects</div>
+			<div class="no-overflow">
+				<hr class="trans-grow hr-left divider">
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="project" id="project1">
+						<div class="project-img" onclick="window.open('https://github.com/JiaxinDai/GomokuAI');">
+							<img style="height: 100%; width: auto; margin-left: auto; margin-right: auto;" 
+							src="resources/self-play.gif"></img>
+							<img src="resources/console.png"></img>
+						</div>
+						<div class="project-desc">
+							<span class="project-name">Gomoku AI</span>
+							<br>
+								A Gomoku agent that implements the minimax algorithm optimized with alpha-beta pruning and Zobrist hashing
+							<br>
+							<span class="project-tech">Swift</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="project" id="project2">
+						<div class="project-img" onclick="window.open('https://github.com/JiaxinDai/Reddit-Anti-Depression-Bot');">
+							<img src="https://raw.githubusercontent.com/JiaxinDai/Reddit-Anti-Depression-Bot/master/screenshots/bot_home.png"></img>
+							<img src="https://raw.githubusercontent.com/JiaxinDai/Reddit-Anti-Depression-Bot/master/screenshots/bot_console.png"></img>
+						</div>
+						<div class="project-desc">
+							<span class="project-name">Reddit Anti-depression Bot</span>
+							<br>
+								A bot that screens new posts on target subreddits and automates messages to users with signs of depression
+							<br>
+							<span class="project-tech">Python, Flask, React, Axios</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="project" id="project3">
+						<div class="project-img" onclick="window.open('https://github.com/JiaxinDai/3D-billiard-game');">
+							<img src="resources/Billiard_start.gif"></img>
+							<img src="resources/Billiard_play.gif"></img>
+						</div>
+						<div class="project-desc">
+							<span class="project-name">3D Billiard Game</span>
+							<br>
+							A multi-level eight ball pool game built entirely from scratch featuring texture mapping,dynamic shadow mapping, and physics engine
+							<br>
+							<span class="project-tech">Java, Blender</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="project" id="project4">
+						<div class="project-img" onclick="window.open('https://github.com/jiaxindai/resume-react');">
+							<img src="resources/resume_draft1.png"
+							></img>
+							<img src="resources/resume_draft2.png"
+							></img>
+						</div>
+						<div class="project-desc">
+							<span class="project-name">Résumé-React</span>
+							<br>
+							My résumé rendered entirely with React.
+							<br>
+							<span class="project-tech">React</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="project" id="project5">
+						<div class="project-img" onclick="window.open('https://github.com/JiaxinDai/Foodies');">
+							<img src="https://i.imgur.com/RTfPTxW.png"></img>
+							<img src="https://i.imgur.com/fhLL56V.png"></img>
+						</div>
+						<div class="project-desc">
+							<span class="project-name">Foodies</span>
+							<br>
+							A one-stop solution for food and recipe searching with React and extensive use of design libraries like Tailwind<br>
+							<span class="project-tech">React, Context API, Tailwind CSS, Material UI</span>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="col-md-6">
+					<div class="project" id="project6">
+						<div class="project-img" onclick="window.open('https://github.com/jiaxindai/Terre');">
+							<img src="projects/resources/terre.png"></img>
+							<img src="projects/resources/terre1.png"></img>
+						</div>
+						<div class="project-desc">
+							<span class="project-name">Terre</span>
+							<br>
+							A visual physics simulation of star systems for mobile devices. It simulates realistic gravitational pull and dynamic lighting.
+							<br>
+							<span class="project-tech">C++, Cocos2d-X</span>
+						</div>
+					</div>
+				</div> -->
+			</div>
+		</div>
+	</div>
+</body>
+</html>
