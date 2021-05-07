@@ -1,4 +1,4 @@
-var charToType = "console.log( 'An<span class='emphasis'> undergraduate</span>, a<span class='emphasis'> developer</span>, a<span class='emphasis'> cook</span>, and a<span class='emphasis'> foodie</span>' );";
+var charToType = "console.log( 'An<span class='emphasis'> undergraduate</span>, a<span class='emphasis'> developer</span>, a<span class='emphasis'> gardener</span>, and a<span class='emphasis'> foodie</span>' );";
 var hint = "        return;";
 var quit = false;
 var isTag;
